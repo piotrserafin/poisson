@@ -1,0 +1,7 @@
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+### Virtualenv ###
+.env_poisson
+*/.env_poisson/*
