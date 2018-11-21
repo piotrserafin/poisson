@@ -2,27 +2,41 @@
 
 ## Wymagania wstępne
 
-* Windows (testowane na wersji 10 Home/Pro)
-* Środowisko Python w wersji conajmniej 3.6
+* Środowisko Python w wersji 3.6+ (https://www.python.org/downloads/)
 
 ## Konfiguracja
 
-W celu utworzenia wirtualnego środowiska oraz instalacji zależnośći należy wykonać skrypt:
+W celu skonfigurowania wirtualnego środowiska oraz instalacji zależnośći należy wykonać skrypt:
 
 ```bash
-configure.bat
+Win> .\configure.bat
+Linux:~/$ source configure
 ```
 
-Zostanie utworzone nowe środowisko ```.env_possion```
-
-Skrypt działa tylko na Windows, dla innych platform należy polecenia wprowadzić ręcznie.
+Zostanie utworzony nowy katalog ```.env_possion``` następnie terminal przełączy się do środowiska wirtualnego.
 
 ## Uruchomienie 
 
-W celu uruchomienia środowiska Jupyter należy wykonać komendę:
+W celu wystartowania środowiska Jupyter należy wykonać komendę:
 
 ```bash
 jupyter notebook
 ```
 
-Uruchomina zostanie przeglądarka internetowa z listą plików. Należy kliknąć na plik ```piossion.ipynb```
+Uruchomiona zostanie przeglądarka internetowa z listą plików. Należy kliknąć na plik ```piossion.ipynb```
+
+## Aktywacja/Deaktywacja środowiska wirtualnego
+
+W celu aktywowania środowiska wykonujemy komendę
+
+```bash
+Win> .env_poisson\Scripts\activate.bat
+Linux:~/$ source .env_poisson/bin/activate
+```
+
+Aby opuścić środowiska należy wykonać komendę
+
+```basg
+Win> .env_poisson\Scripts\deactivate.bat
+Linux:~/$ deactivate
+```
