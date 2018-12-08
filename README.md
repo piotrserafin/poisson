@@ -5,9 +5,15 @@
 * Środowisko Python w wersji 3.6+ (https://www.python.org/downloads/)
 * Manager pakietów pip3
 
+```bash
+Linux (Ubuntu/Debian):~/$ sudo apt-get install python python3-pip
+```
+
+W przypadku środowiska windows pakiet pip jest instalowany domyślnie wraz z instalacją pythona
+
 ## Konfiguracja
 
-W celu skonfigurowania wirtualnego środowiska oraz instalacji zależnośći należy wykonać skrypt:
+W celu skonfigurowania wirtualnego środowiska oraz instalacji zależnośći należy wykonać przejść do folderu projektu i wykonać skrypt:
 
 ```bash
 Win> .\configure.bat
@@ -37,7 +43,7 @@ Linux:~/$ source .env_poisson/bin/activate
 
 Aby opuścić środowiska należy wykonać komendę
 
-```basg
+```bash
 Win> .env_poisson\Scripts\deactivate.bat
 Linux:~/$ deactivate
 ```
