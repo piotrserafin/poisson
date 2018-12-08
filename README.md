@@ -3,6 +3,7 @@
 ## Wymagania wstępne
 
 * Środowisko Python w wersji 3.6+ (https://www.python.org/downloads/)
+* Manager pakietów pip3
 
 ## Konfiguracja
 
